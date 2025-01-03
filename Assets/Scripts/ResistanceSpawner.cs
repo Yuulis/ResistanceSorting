@@ -1,27 +1,39 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class ResistanceSpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject resistancePrefab;
+    [SerializeField] private Resistance resistancePrefab;
+    private int resistanceCount;
 
     void Start()
     {
-
+        resistanceCount = 0;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            SpawnResistance();
-        }
+
     }
 
-    private void SpawnResistance()
+    public void SpawnResistance()
     {
-        GameObject resistanceObj = Instantiate(resistancePrefab, transform.position, Quaternion.identity);
-        Resistance resistance = resistanceObj.GetComponent<Resistance>();
-        resistance.id = Random.Range(0, 1000);
-        resistance.bands.Add((Resistance.Color)Random.Range(0, 11));
+        Resistance resistance = Instantiate(
+            resistancePrefab,
+            new Vector3(this.transform.position.x, this.transform.position.y + resistanceCount * 1f, this.transform.position.z),
+            Quaternion.identity
+        );
+
+        resistance.SetResistanceData(
+            resistanceCount,
+            (Resistance.Color)Random.Range(0, 12),
+            (Resistance.Color)Random.Range(0, 12),
+            (Resistance.Color)Random.Range(0, 12),
+            (Resistance.Color)Random.Range(0, 13),
+            (Resistance.Color)Random.Range(0, 13),
+            (Resistance.Color)Random.Range(0, 13)
+        );
+
+        resistanceCount++;
     }
 }

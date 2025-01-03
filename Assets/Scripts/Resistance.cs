@@ -22,11 +22,11 @@ public class Resistance : MonoBehaviour
 
     public int id;
     public List<Color> bands = new List<Color>();
-    public int resistance;
+    public long resistance;
     public double error;
     public int temperatureCoefficient;
 
-    public Resistance(int id, Color band1, Color band2, Color band3, Color band4, Color band5, Color band6)
+    public void SetResistanceData(int id, Color band1, Color band2, Color band3, Color band4, Color band5, Color band6)
     {
         this.id = id;
         bands.Add(band1);
@@ -171,7 +171,7 @@ public class Resistance : MonoBehaviour
         }
     }
 
-    private void OutputData()
+    public void OutputData()
     {
         Debug.Log($"Resistance-{id} : \n Resistance = {resistance} Ω ± {error * 100} % \n Temperature Coefficient = {temperatureCoefficient} ppm/K");
     }
