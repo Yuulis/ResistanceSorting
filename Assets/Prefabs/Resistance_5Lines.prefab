@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 80585171388547267}
   - component: {fileID: 421981115753161733}
   m_Layer: 0
-  m_Name: "\u30AB\u30E9\u30FC\u30B3\u30FC\u30C9\uFF14"
+  m_Name: Band4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: 7671986845620807467}
   - component: {fileID: 7204891608957888425}
   m_Layer: 0
-  m_Name: "\u91DD\u91D1"
+  m_Name: Wire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 7249695171120223193}
   - component: {fileID: 7022218342735344469}
   m_Layer: 0
-  m_Name: "\u30AB\u30E9\u30FC\u30B3\u30FC\u30C9\uFF15"
+  m_Name: Band5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -381,7 +381,7 @@ GameObject:
   - component: {fileID: 1464809625599449166}
   - component: {fileID: 4917248561080324350}
   m_Layer: 0
-  m_Name: "\u30AB\u30E9\u30FC\u30B3\u30FC\u30C9\uFF11"
+  m_Name: Band1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -467,7 +467,7 @@ GameObject:
   - component: {fileID: 7929433440923591364}
   - component: {fileID: 1109468808694041299}
   m_Layer: 0
-  m_Name: "\u30AB\u30E9\u30FC\u30B3\u30FC\u30C9\uFF12"
+  m_Name: Band2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -553,7 +553,7 @@ GameObject:
   - component: {fileID: 8686125568995774546}
   - component: {fileID: 7211800634657329768}
   m_Layer: 0
-  m_Name: "\u30AB\u30E9\u30FC\u30B3\u30FC\u30C9\uFF13"
+  m_Name: Band3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
