@@ -680,7 +680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8cb4a4f527fbc84f801f6162fed9924, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resistancePrefab: {fileID: 4437264236549900664, guid: e9a8b4b833b69f142a1520120715e966, type: 3}
+  resistancePrefab: {fileID: 7247408524236997681, guid: fb90e9d88e3a28b498dee2783593bb27, type: 3}
 --- !u!1 &1886011910
 GameObject:
   m_ObjectHideFlags: 0
